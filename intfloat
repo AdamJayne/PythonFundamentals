@@ -1,0 +1,6 @@
+#integers
+answer = 42
+#float
+pi = 3.14159268
+answer + pi
+print (answer + pi)

@@ -1,0 +1,17 @@
+#strings can be single quotes, double quotes, or triple quote
+sq = 'Hello World'
+dq = "Hello World"
+tq = """Hello World"""
+
+#Strings support utility methods
+"hello".capitalize() == "Hello" #capitalizes the first letter
+"hello".replace("e", "a") == "Hallo" #replaces character with another
+"hello".isalpha() == True #useful when converting to int
+"some, csv, values".split(",") == ["some", "csv", "values"] #splits between a specific character
+
+print (dq.replace("l", "f"))
+
+name = "Adam"
+machine = "HAL"
+print("Nice to meet you {0}. I am {1}".format(name, machine))
+print (f"Nice to meet you {name}. I am {machine}")
